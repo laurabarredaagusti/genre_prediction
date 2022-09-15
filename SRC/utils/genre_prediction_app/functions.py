@@ -1,4 +1,7 @@
 import streamlit as st
+import base64
+from PIL import Image 
+
 
 def config_page():
     '''
@@ -8,4 +11,7 @@ def config_page():
                         page_icon = ':fire:',
                         layout= 'wide')
 
-        
+def edm():
+    img = Image.open('background.jpg')
+    st.image(img,use_column_width='auto')
+    pass

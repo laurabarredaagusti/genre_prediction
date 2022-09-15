@@ -21,6 +21,13 @@ audio_features_list = ['danceability', 'energy', 'key', 'loudness', 'mode', 'spe
 # ML model
 model = 'my_model'
 
+model_all = 'my_model_all'
+
+# Scaler
+scaler = 'scaler'
+
+scaler_all = 'scaler_all'
+
 # Decoding dictionary
 genre_decode_dict = {1 : 'ambient',
                  2 : 'psytrance',
@@ -28,6 +35,19 @@ genre_decode_dict = {1 : 'ambient',
                  4 : 'hardstyle',
                  5 : 'trance',
                  6 : 'techno',
-                 7 : 'pop',
+                 7 : 'techhouse',
                  8 : 'trap',
                  9 : 'synthwave'}
+
+genre_decode_dict_all = {1 : 'blues',
+                 2 : 'classical',
+                 3 : 'country',
+                 4 : 'disco',
+                 5 : 'electronic',
+                 6 : 'hiphop',
+                 7 : 'metal',
+                 8 : 'jazz',
+                 9 : 'pop',
+                 10: 'reggae',
+                 11: 'rock',
+                 12: 'latin'}
